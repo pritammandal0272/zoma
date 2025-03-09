@@ -1,0 +1,68 @@
+/*All Responsive Elements*/
+
+@media (max-width: 1200px) { ... } /* for desktops */
+@media (max-width: 991px) { ... } /* for laptops */
+@media (min-width: 768px) and (max-width: 990px) { ... } /* for large tablets */
+@media (max-width: 480px) {
+  .main{
+    margin: 0;
+    padding: 0px 20px;
+   }
+  .navbar{
+    height: 15vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 60% 40%;
+  }
+  .logo{
+    margin-top: 20px;
+  }
+  .box input{
+    display: none;
+  }
+  .line{
+    display: none;
+  }
+  #search{
+    margin-left: auto;
+    text-align: center;
+    color: white;
+  }
+  .search_box{
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    margin-right: 30px;
+    align-content: center;
+    border-radius: 10px;
+  }
+  .login{
+    display: none;
+  }
+  .nav3{
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  .food_images{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 10%;
+    position: relative;
+  }
+  .image_1{
+    height: 30%;
+    background-size: 100% 100%;
+    position: absolute;
+    margin: 0px auto;
+  }
+  .image_1 p{
+    margin-top: 40%;
+  }
+  .image_1_name{
+    position: absolute;
+    margin-top: 53%;
+
+  }
+ } /* for smaller tablets */
+@media (max-width: 500px) { ... } /* for cellphones */
