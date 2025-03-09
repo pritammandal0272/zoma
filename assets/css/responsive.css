@@ -47,7 +47,7 @@
   .food_images{
     display: grid;
     grid-template-columns: 100%;
-    gap: 10%;
+    gap: 15%;
     position: relative;
   }
   .image_1{
@@ -61,8 +61,7 @@
   }
   .image_1_name{
     position: absolute;
-    margin-top: 53%;
-
+    margin-top: 60%;
   }
  } /* for smaller tablets */
 @media (max-width: 500px) { ... } /* for cellphones */
